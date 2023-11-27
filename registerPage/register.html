@@ -2,7 +2,7 @@
 <html lang="en" data-bs-theme="auto">
 
 <head>
-  <script src="assets/js/color-modes.js"></script>
+  <script src="../assets/js/color-modes.js"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -168,10 +168,10 @@
       </li>
     </ul>
   </div>
-
+  
   <!--dropdown em cima-->
   <header data-bs-theme="dark">
-
+    
 
     <!-- parte preta em cima-->
     <div class="navbar navbar-dark bg-dark shadow-sm">
@@ -183,42 +183,22 @@
           <!--botao 3 linhas-->
         </a>
         <div class="dropdown-center">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <img src="">
-          </button>
-          <ul class="dropdown-menu dropdown-menu">
-            <li><button class="dropdown-item" type="button"><a href="mainPage/MainPage.html">Página Inicial</a></button>
-            </li>
-            <li><button class="dropdown-item" type="button"><a href="#">Login</a></button></li>
-            <li><button class="dropdown-item" type="button"><a href="registerPage/register.html">Cadastro</a></button>
-            </li>
-          </ul>
-        </div>
+        <button  type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="">
+      </button>
+      <ul class="dropdown-menu dropdown-menu" >
+        <li><button class="dropdown-item" type="button"><a href="../mainPage/MainPage.html">Página Inicial</a></button></li>
+        <li><button class="dropdown-item" type="button"><a href="../index.html">Login</a></button></li>
+        <li><button class="dropdown-item" type="button"><a href="#">Cadastro</a></button></li>
+      </ul>
       </div>
+    </div>
   </header>
 
   <main>
-    <div>
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
+  
   </main>
 
   <!-- parte de baixo-->
@@ -232,8 +212,7 @@
           href="/getting-started/introduction/">getting started guide</a>.</p>
     </div>
   </footer>
-  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
